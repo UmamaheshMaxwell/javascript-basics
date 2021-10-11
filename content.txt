@@ -250,7 +250,7 @@ Bind vs call vs apply
 bind - sets `this` keyword and creates a copy of that function
 
 call -  sets `this` keyword and execute the function immediately and 
-        doesn't create a new copy of the function, it takes comma seperated values
+        doesn't create a new copy of the function. it takes comma seperated values
 
 apply - sets `this` keyword, similar to call but the difference is apply accepts
         an array of arguments instead comma seperated values
@@ -259,8 +259,8 @@ apply - sets `this` keyword, similar to call but the difference is apply accepts
 The call, bind and apply methods can be used to set `this` keyword 
 independent of how function is called
 
-Class (29/09/2020)
-------------------
+Class 
+-----
 Javascript is a prototype-based language which contains no class statement 
 such as is found in C# or Java
 

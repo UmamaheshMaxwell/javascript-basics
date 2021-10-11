@@ -1,0 +1,1 @@
+1. how long inner function will have access to outer functions

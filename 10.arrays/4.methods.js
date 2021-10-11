@@ -34,4 +34,50 @@ console.log(movieString.split(","))
 
 var data = ["C#", "JavaScript", "Python", "MSSQL"]
 
-console.log(data.indexOf("c#"))
+console.log(data.indexOf("c#".toUpperCase()))
+
+var values = ["Umesh"]
+console.log(values.indexOf("U"))
+
+
+var array = [1,2,3]
+var obj = {}
+console.log(typeof array, typeof obj)
+
+if(typeof array === 'array'){
+    array[3] ="somedata"
+}
+
+/*
+    ? Array.isArray
+*/
+
+if(Array.isArray(array)){
+    array[3] ="somedata"
+}
+console.log(typeof array, Array.isArray(array))
+console.log(array)
+
+/*
+    ? push - adds the element at the end of an array
+    ? pop  - removes the element at the end of an array
+    ? unshift - adds the element at the begining of an array
+    ? shift - removes the element at the begining of an array
+*/
+console.clear()
+var arrayList = [1,2,3,4,5]
+
+arrayList.push(6)
+arrayList.push(7)
+arrayList.unshift(0)
+arrayList.unshift(-1)
+arrayList.pop()
+arrayList.pop()
+arrayList.shift()
+arrayList.shift()
+console.log(arrayList)
+
+var dataList = []
+
+dataList.push({firstName: 'Scott', lastName: 'Destanick'})
+console.log(dataList)

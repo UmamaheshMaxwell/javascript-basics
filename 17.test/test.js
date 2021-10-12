@@ -165,8 +165,18 @@ function extensionExtractor(filename){
 
 console.clear()
 
-arraySum([1,2,3,4,5]) // 15
-arraySum([1,2,3,4,5,6,7,8,9,10]) //55
-arraySum([1,2, 'uma',3,4,5]) //15
-arraySum([1,2, 'uma', {a: 'ma'},3,4,5]) //15
-arraySum([1,2,[[3],4],5]) //15
+// arraySum([1,2,3,4,5]) // 15
+// arraySum([1,2,3,4,5,6,7,8,9,10]) //55
+// arraySum([1,2, 'uma',3,4,5]) //15
+// arraySum([1,2, 'uma', {a: 'ma'},3,4,5]) //15
+// arraySum([1,2,[[3],4],5]) //15
+
+console.log("Hello %s your Id is %i ", "Uma", 12345)
+console.log("User Object %o", {name: 'Uma'})
+
+var userData = [
+    {name: "Scott", age: 45, city:'boston'},
+    {name: "Adam", age: 43},
+    {name: "Taun", age: 42},
+]
+console.table(userData)

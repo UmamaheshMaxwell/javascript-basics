@@ -12,7 +12,7 @@ function Student(age) {
 }
 
 // Inherit the properties of Super Type
-//Student.prototype = new Person("Scott", "Desatnick")
+Student.prototype = new Person("Scott", "Desatnick")
 
 Student.prototype.getAge = function(){
     return this.age
